@@ -8,6 +8,7 @@ import {
   CDBSidebarMenuItem,
 } from "cdbreact";
 import { NavLink } from "react-router-dom";
+import "./style.css"
 
 const Sidebar = () => {
   return (
@@ -21,7 +22,9 @@ const Sidebar = () => {
             className="text-decoration-none"
             style={{ color: "inherit" }}
           >
-            PROPAL
+            PROPAL LLC
+
+            <h5>Professinal Tax Services </h5>
           </a>
         </CDBSidebarHeader>
 
