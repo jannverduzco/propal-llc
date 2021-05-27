@@ -8,7 +8,7 @@ import {
   CDBSidebarMenuItem,
 } from "cdbreact";
 import { NavLink } from "react-router-dom";
-import "./style.css"
+import "./style.css";
 
 const Sidebar = () => {
   return (
@@ -23,25 +23,23 @@ const Sidebar = () => {
             style={{ color: "inherit" }}
           >
             PROPAL LLC
-
             <h5>Professinal Tax Services </h5>
           </a>
         </CDBSidebarHeader>
 
         <CDBSidebarContent className="sidebar-content">
           <CDBSidebarMenu>
-            <NavLink exact to="/" activeClassName="activeClicked">
+            <NavLink exact to="/about" activeClassName="activeClicked">
               <CDBSidebarMenuItem icon="columns">About Us</CDBSidebarMenuItem>
             </NavLink>
-            <NavLink exact to="/tables" activeClassName="activeClicked">
+            <NavLink exact to="/services" activeClassName="activeClicked">
               <CDBSidebarMenuItem icon="table">Services</CDBSidebarMenuItem>
             </NavLink>
-            <NavLink exact to="/profile" activeClassName="activeClicked">
+            <NavLink exact to="/contact" activeClassName="activeClicked">
               <CDBSidebarMenuItem icon="user">Contact Us</CDBSidebarMenuItem>
             </NavLink>
-            <NavLink exact to="/analytics" activeClassName="activeClicked">
-              <CDBSidebarMenuItem icon="fa fa-question-circle" >
-                  
+            <NavLink exact to="/faqs" activeClassName="activeClicked">
+              <CDBSidebarMenuItem icon="fa fa-question-circle">
                 FAQ's
               </CDBSidebarMenuItem>
             </NavLink>
