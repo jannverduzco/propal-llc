@@ -10,14 +10,13 @@ function App() {
   return (
     <div className="website-font">
       <Router>
-      <NavBar>
+        <NavBar />
         <Switch>
           <Route exact path="/about" component={About} />
           <Route exact path="/services" component={Services} />
           <Route exact path="/contact" component={Contact} />
           <Route exact path="/faqs" component={FAQS} />
         </Switch>
-        </NavBar>
       </Router>
     </div>
   );

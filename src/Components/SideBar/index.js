@@ -7,12 +7,12 @@ import {
   CDBSidebarMenu,
   CDBSidebarMenuItem,
 } from "cdbreact";
-import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 import "./style.css";
 
-const Sidebar = () => {
+function Sidebar() {
   return (
-    <div
+    <nav
       style={{ display: "flex", height: "100vh", overflow: "scroll initial" }}
     >
       <CDBSidebar textColor="white" backgroundColor="#64BB6A">
@@ -29,20 +29,20 @@ const Sidebar = () => {
 
         <CDBSidebarContent className="sidebar-content">
           <CDBSidebarMenu>
-            <NavLink exact to="/about" activeClassName="activeClicked">
+            <Link to="/about" activeClassName="activeClicked">
               <CDBSidebarMenuItem icon="columns">About Us</CDBSidebarMenuItem>
-            </NavLink>
-            <NavLink exact to="/services" activeClassName="activeClicked">
+            </Link>
+            <Link to="/services" activeClassName="activeClicked">
               <CDBSidebarMenuItem icon="table">Services</CDBSidebarMenuItem>
-            </NavLink>
-            <NavLink exact to="/contact" activeClassName="activeClicked">
+            </Link>
+            <Link to="/contact" activeClassName="activeClicked">
               <CDBSidebarMenuItem icon="user">Contact Us</CDBSidebarMenuItem>
-            </NavLink>
-            <NavLink exact to="/faqs" activeClassName="activeClicked">
+            </Link>
+            <Link to="/faqs" activeClassName="activeClicked">
               <CDBSidebarMenuItem icon="fa fa-question-circle">
                 FAQ's
               </CDBSidebarMenuItem>
-            </NavLink>
+            </Link>
           </CDBSidebarMenu>
         </CDBSidebarContent>
 
@@ -56,8 +56,8 @@ const Sidebar = () => {
           </div>
         </CDBSidebarFooter>
       </CDBSidebar>
-    </div>
+    </nav>
   );
-};
+}
 
 export default Sidebar;
