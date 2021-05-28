@@ -2,7 +2,7 @@ import React from "react";
 
 function Services() {
   return (
-    <div>
+    <div   style={{   textAlign:"center" }}>
       <h1>Services</h1>
     </div>
   );
