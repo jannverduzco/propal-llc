@@ -3,7 +3,7 @@ import React from "react";
 
 function About() {
   return (
-    <div>
+    <div   style={{   textAlign:"center" }}>
      
 
      <h1>About Us</h1>

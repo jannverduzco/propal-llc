@@ -13,12 +13,18 @@ import "./style.css";
 function Sidebar() {
   return (
     <nav
-      style={{ display: "flex", height: "100vh", overflow: "scroll initial" }}
+      style={{
+        display: "flex",
+        height: "100vh",
+        overflow: "auto",
+        // flexDirection: "column",
+        position: "fixed",
+      }}
     >
       <CDBSidebar textColor="white" backgroundColor="#64BB6A">
         <CDBSidebarHeader prefix={<i className="fa fa-bars fa-large"></i>}>
           <a
-            href="/"
+            href="/about"
             className="text-decoration-none"
             style={{ color: "inherit" }}
           >
