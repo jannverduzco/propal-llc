@@ -9,6 +9,7 @@ import {
 } from "cdbreact";
 import { Link } from "react-router-dom";
 import "./style.css";
+import Logo from "../../Assets/logo.png"
 
 function Sidebar() {
   return (
@@ -22,14 +23,12 @@ function Sidebar() {
       }}
     >
       <CDBSidebar textColor="white" backgroundColor="#64BB6A">
-        <CDBSidebarHeader prefix={<i className="fa fa-bars fa-large"></i>}>
+        <CDBSidebarHeader>
           <a
             href="/about"
-            className="text-decoration-none"
             style={{ color: "inherit" }}
           >
-            PROPAL LLC
-            <h5>Professinal Tax Services </h5>
+            <img className="logo" src={Logo} alt="logo"></img>
           </a>
         </CDBSidebarHeader>
 

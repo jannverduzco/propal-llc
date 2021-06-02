@@ -4,3 +4,9 @@ h5 {
   text-align: center;
   line-height: 4vh;
 }
+
+.logo {
+  width: 30vh;
+  height: 15vh;
+  border-radius: 5px 20px 5px;
+}
