@@ -9,7 +9,7 @@ import {
 } from "cdbreact";
 import { Link } from "react-router-dom";
 import "./style.css";
-import Logo from "../../Assets/logo.png"
+import Logo from "../../Assets/logo.png";
 
 function Sidebar() {
   return (
@@ -23,11 +23,8 @@ function Sidebar() {
       }}
     >
       <CDBSidebar textColor="white" backgroundColor="#64BB6A">
-        <CDBSidebarHeader>
-          <a
-            href="/about"
-            style={{ color: "inherit" }}
-          >
+        <CDBSidebarHeader prefix={<i className="fa fa-bars fa-large"></i>} >
+          <a href="/about">
             <img className="logo" src={Logo} alt="logo"></img>
           </a>
         </CDBSidebarHeader>
