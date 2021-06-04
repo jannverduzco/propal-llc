@@ -23,7 +23,9 @@ function Sidebar() {
       }}
     >
       <CDBSidebar textColor="white" backgroundColor="#64BB6A">
-        <CDBSidebarHeader prefix={<i className="fa fa-bars fa-large"></i>} >
+        <CDBSidebarHeader>
+          {/* prefix={<i className="fa fa-bars fa-large"></i>}  */}
+
           <a href="/about">
             <img className="logo" src={Logo} alt="logo"></img>
           </a>

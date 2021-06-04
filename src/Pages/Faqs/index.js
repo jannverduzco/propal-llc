@@ -1,10 +1,13 @@
 import React from "react";
+import Header from "../../Components/Header";
 
 function Faqs() {
   return (
-    <div   style={{   textAlign:"center" }}>
-      <h1>FAQS</h1>
-    </div>
+    <div style={{ textAlign: "center" }}>
+    <Header>
+      <h1>FAQ's</h1>
+    </Header>
+  </div>
   );
 }
 
