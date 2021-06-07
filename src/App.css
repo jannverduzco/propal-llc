@@ -1,10 +1,12 @@
-.App {
-  text-align: center;
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding:0;
+  font-family: 'Montserrat', sans-serif;
 }
 
-.website-font {
-  font-family: 'Montserrat', sans-serif;
-
+.App {
+  text-align: center;
 }
 
 @media (prefers-reduced-motion: no-preference) {

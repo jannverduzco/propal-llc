@@ -1,12 +1,5 @@
-h5 {
-  font-size: 14px;
-  font-weight: bold;
+.navigationBar {
+  font-family: sans-serif;
+  font-size: 24px;
   text-align: center;
-  line-height: 4vh;
-}
-
-.logo {
-  width: 30vh;
-  height: 15vh;
-  border-radius: 5px 20px 5px;
 }
