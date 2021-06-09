@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import { MdFingerprint } from "react-icons/md";
 import { FaBars, FaRegWindowClose } from "react-icons/fa";
 // import * as ReactBootStrap from "react-bootstrap";
+import Logo from "../../Assets/propal.png";
 import "./style.css";
 
 function Navbar() {
@@ -15,26 +15,37 @@ function Navbar() {
       <div className="navbar">
         <div className="navbar-container container">
           <Link to="/" className="navbar-logo">
-            <MdFingerprint className="navbar-icon" />
+           
+            <img className="logo" src={Logo} alt="logo"></img>
           </Link>
           <div className="menu-icon" onClick={handleClick}>
             {click ? <FaRegWindowClose /> : <FaBars />}
           </div>
           <ul className={click ? "nav-menu active" : "nav-menu"}>
             <li className="nav-item">
-              <Link to="/" className="nav-links">HOME</Link>
+              <Link to="/" className="nav-links">
+                HOME
+              </Link>
             </li>
             <li className="nav-item">
-              <Link to="/about" className="nav-links">ABOUT</Link>
+              <Link to="/about" className="nav-links">
+                ABOUT
+              </Link>
             </li>
             <li className="nav-item">
-              <Link to="/services" className="nav-links">SERVICES</Link>
+              <Link to="/services" className="nav-links">
+                SERVICES
+              </Link>
             </li>
             <li className="nav-item">
-              <Link to="/contact" className="nav-links">CONTACT</Link>
+              <Link to="/contact" className="nav-links">
+                CONTACT
+              </Link>
             </li>
             <li className="nav-item">
-              <Link to="/faqs" className="nav-links">FAQ'S</Link>
+              <Link to="/faqs" className="nav-links">
+                FAQ'S
+              </Link>
             </li>
           </ul>
         </div>
