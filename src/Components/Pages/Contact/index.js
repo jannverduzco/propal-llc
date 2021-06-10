@@ -1,14 +1,15 @@
 import React from "react";
-import Header from "../../Components/Header";
+import Header from "../../Header";
 
-function Faqs() {
+
+function Contact() {
   return (
     <div style={{ textAlign: "center" }}>
     <Header>
-      <h1>FAQ's</h1>
+      <h1>Contact Us</h1>
     </Header>
   </div>
   );
 }
 
-export default Faqs;
+export default Contact;
