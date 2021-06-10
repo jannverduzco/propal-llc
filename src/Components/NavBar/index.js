@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { FaBars, FaRegWindowClose } from "react-icons/fa";
 // import * as ReactBootStrap from "react-bootstrap";
-import Logo from "../../Assets/propal.png";
+// import Logo from "../../Assets/propal.png";
 import "./style.css";
 
 function Navbar() {
@@ -15,8 +15,10 @@ function Navbar() {
       <div className="navbar">
         <div className="navbar-container container">
           <Link to="/" className="navbar-logo">
-           
-            <img className="logo" src={Logo} alt="logo"></img>
+            <h3>PROPAL LLC</h3>
+
+            
+            {/* <img className="logo" src={Logo} alt="logo"></img> */}
           </Link>
           <div className="menu-icon" onClick={handleClick}>
             {click ? <FaRegWindowClose /> : <FaBars />}
