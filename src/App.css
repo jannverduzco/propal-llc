@@ -5,6 +5,11 @@
   font-family: 'Montserrat', sans-serif;
 }
 
+.page-container {
+  text-align: center;
+
+}
+
 .App {
   text-align: center;
 }
