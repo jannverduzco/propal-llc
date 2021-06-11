@@ -6,7 +6,7 @@ import "./style.css";
 function Header(props) {
   return (
     <Jumbotron>
-      <h1>{props.children}</h1>
+      <div className="page-title">{props.children}</div>
     </Jumbotron>
   );
 }

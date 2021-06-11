@@ -5,7 +5,7 @@ function Faqs() {
   return (
     <div style={{ textAlign: "center" }}>
     <Header>
-      <h1>FAQ's</h1>
+      <div>FAQ's</div>
     </Header>
   </div>
   );

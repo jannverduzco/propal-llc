@@ -1,4 +1,4 @@
-.jumbotron {
-  background-image: url("../../Assets/jumbotron-background.jpg");
-  background-size: cover;
+.page-title {
+    font-size: 35px;
+    padding: 3%;
 }

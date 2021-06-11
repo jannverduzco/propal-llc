@@ -5,7 +5,7 @@ function Services() {
   return (
     <div style={{ textAlign: "center" }}>
     <Header>
-      <h1>Our Services</h1>
+      <div>Our Services</div>
     </Header>
   </div>
   );

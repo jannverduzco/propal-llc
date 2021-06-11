@@ -5,7 +5,7 @@ function About() {
   return (
     <div style={{ textAlign: "center" }}>
       <Header>
-        <h1>About Us</h1>
+      <div>About Us</div>
       </Header>
     </div>
   );
