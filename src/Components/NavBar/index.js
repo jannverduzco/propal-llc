@@ -9,15 +9,18 @@ import { IconContext } from "react-icons/lib";
 function Navbar() {
   // Setting initial valie of click to false
   const [click, setClick] = useState(false);
+
   // Creating a function to hanlde the click instance (Setting click to oppisite valie of click to toggle)
   const handleClick = () => setClick(!click);
+  // Creating a function to hable the mobile click instance propting navbar to dissapear and 'clicked page' to reflect
+  const closeMobileMenu = () => setClick(false)
   return (
     <>
     {/* Wrapping everything in one color using IconContext */}
     <IconContext.Provider value={{ color: '#fff'}}>
       <div className="navbar">
         <div className="navbar-container container">
-          <Link to="/" className="navbar-logo">
+          <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
             <h4>PROPAL LLC</h4>
 
             
@@ -28,27 +31,27 @@ function Navbar() {
           </div>
           <ul className={click ? "nav-menu active" : "nav-menu"}>
             <li className="nav-item">
-              <Link to="/" className="nav-links">
+              <Link to="/" className="nav-links" onClick={closeMobileMenu}>
                 HOME
               </Link>
             </li>
             <li className="nav-item">
-              <Link to="/about" className="nav-links">
+              <Link to="/about" className="nav-links" onClick={closeMobileMenu}>
                 ABOUT
               </Link>
             </li>
             <li className="nav-item">
-              <Link to="/services" className="nav-links">
+              <Link to="/services" className="nav-links" onClick={closeMobileMenu}>
                 SERVICES
               </Link>
             </li>
             <li className="nav-item">
-              <Link to="/contact" className="nav-links">
+              <Link to="/contact" className="nav-links" onClick={closeMobileMenu}>
                 CONTACT
               </Link>
             </li>
             <li className="nav-item">
-              <Link to="/faqs" className="nav-links">
+              <Link to="/faqs" className="nav-links" onClick={closeMobileMenu}>
                 FAQ'S
               </Link>
             </li>
