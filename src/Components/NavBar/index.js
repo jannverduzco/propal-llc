@@ -1,9 +1,10 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { FaBars, FaRegWindowClose } from "react-icons/fa";
-// import * as ReactBootStrap from "react-bootstrap";
-// import Logo from "../../Assets/propal.png";
 import "./style.css";
+import { IconContext } from "react-icons/lib";
+// import Logo from "../../Assets/propal.png";
+// import * as ReactBootStrap from "react-bootstrap";
 
 function Navbar() {
   // Setting initial valie of click to false
@@ -12,10 +13,12 @@ function Navbar() {
   const handleClick = () => setClick(!click);
   return (
     <>
+    {/* Wrapping everything in one color using IconContext */}
+    <IconContext.Provider value={{ color: '#fff'}}>
       <div className="navbar">
         <div className="navbar-container container">
           <Link to="/" className="navbar-logo">
-            <h3>PROPAL LLC</h3>
+            <h4>PROPAL LLC</h4>
 
             
             {/* <img className="logo" src={Logo} alt="logo"></img> */}
@@ -52,6 +55,7 @@ function Navbar() {
           </ul>
         </div>
       </div>
+      </IconContext.Provider>
     </>
   );
 }
