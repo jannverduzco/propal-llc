@@ -1,12 +1,12 @@
 import React from "react";
-import Header from "../../Header";
+import Hero from "../../Hero";
 
 function Contact() {
   return (
     <div style={{ textAlign: "center" }}>
-      <Header>
+      <Hero>
         <div>Contact Us</div>
-      </Header>
+      </Hero>
     </div>
   );
 }

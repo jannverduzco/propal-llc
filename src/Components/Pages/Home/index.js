@@ -1,12 +1,12 @@
 import React from 'react'
-import Header from "../../Header"
+import Hero from "../../Hero"
 
 function index() {
     return (
       <div style={{ textAlign: "center" }}>
-      <Header>
+      <Hero>
         <div>Home</div>
-      </Header>
+      </Hero>
     </div>
     )
 }
