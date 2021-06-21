@@ -1,14 +1,14 @@
-import React from 'react'
-import Hero from "../../Hero"
+import React from "react";
+import Hero from "../../Hero";
+
+
 
 function index() {
-    return (
-      <div style={{ textAlign: "center" }}>
-      <Hero>
-        <div>Home</div>
-      </Hero>
-    </div>
-    )
+  return (
+    <>
+    
+    </>
+  );
 }
 
-export default index
+export default index;
