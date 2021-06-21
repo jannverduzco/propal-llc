@@ -1,13 +1,11 @@
 import React from "react";
-import Hero from "../../Hero";
+import "../../../App.css";
+
 
 function About() {
   return (
     <div style={{ textAlign: "center" }}>
-      <Hero>
         <div>About Us</div>
-      </Hero>
-
       <div className="page-container">
         <p>
           
