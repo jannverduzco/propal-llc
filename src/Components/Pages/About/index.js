@@ -15,19 +15,21 @@ function About() {
       </style>
 
       <Col className="page-container">
-        <Row className="page-title"> ABOUT US </Row>
+        <Row className="page-title"> About Us  </Row>
         <Row>
           <Col className="page-content">
             <p>
-              PROPAL, LLC has been in business for over 2 years with the main
-              goal to provide quality service for our clients.
+              Propal, LLC has been in business for over 3 years with the main goal to provide quality service for our clients.
+              <br></br>
+              Our tax expert, Maximiliano Alvarado has a Bachelor’s degree in
+              Accounting from University of Texas at San Antonio and is also an Enrolled Agent with over 5 years of experience.
             </p>
-
-            <p>
-              Our, tax expert, Maximiliano Alvarado has a Bachelor’s degree in
-              Accounting from University of Texas at San Antonio and is also an
-              Enrolled Agent with over 5 years of experience.
-            </p>
+          </Col>
+        </Row>
+        <Row className="page-title"> Our Mission  </Row>
+        <Row>
+          <Col className="page-content">
+            
           </Col>
         </Row>
       </Col>
