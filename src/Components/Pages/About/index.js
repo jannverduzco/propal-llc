@@ -27,12 +27,14 @@ function About() {
             </p>
           </Col>
         </Row>
-        <Row className="page-title"> Our Mission </Row>
+        <Row className="page-title">Propal, LLC Mission </Row>
         <Row>
           <Col className="page-content">
-            Propal, LLC strides to provide exceptional professional services for
-            our clients. We provide services for our English and Spanish
-            speaking clients with the same about of knowledge and expertise.
+            Our Mission is to help clients reach their financial goals by
+            implementing optimal tax saving strategies that will benefit both,
+            in the present and future. We are dedicated to giving our clients
+            guidance to better understand their tax situation, as well as give
+            peace of mind when it comes to any business needs.
           </Col>
         </Row>
       </Col>
