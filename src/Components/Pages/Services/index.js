@@ -8,7 +8,7 @@ function Services() {
     <Container>
       <style>
         {
-          "body {background-image: url('https://images.pexels.com/photos/6863191/pexels-photo-6863191.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940'); background-repeat: no-repeat; background-size: cover;  height: 100vh;}"
+          "body {background-color: #c9e1d5; background-repeat: no-repeat; ;  height: 100vh;}"
         }
       </style>
 

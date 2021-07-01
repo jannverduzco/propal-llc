@@ -6,18 +6,22 @@
 }
 
 .page-container {
-  font-size: 22px;
-  background-color: rgba(255, 255, 255, 0.199);
+  background-color: rgba(255, 255, 255, 0.733);
   text-align: center;
+  border-radius: 0px 0px 20px 20px; 
+  
 }
 
 .page-title {
   padding-top: 4%;
   font-weight: bold;
+  font-size: 30px;
+
 }
 
 .page-content {
   padding: 3.5%;
+  font-size: 20px;
 
 }
 

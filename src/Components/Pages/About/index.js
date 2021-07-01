@@ -27,10 +27,10 @@ function About() {
             </p>
           </Col>
         </Row>
-        <Row className="page-title">Propal, LLC Mission </Row>
+        <Row className="page-title">Our Mission </Row>
         <Row>
           <Col className="page-content">
-            Our Mission is to help clients reach their financial goals by
+            Our mission is to help clients reach their financial goals by
             implementing optimal tax saving strategies that will benefit both,
             in the present and future. We are dedicated to giving our clients
             guidance to better understand their tax situation, as well as give
