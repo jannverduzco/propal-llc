@@ -2,6 +2,7 @@ import React from "react";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
+import "./style.css";
 
 function Services() {
   return (
@@ -12,20 +13,31 @@ function Services() {
         }
       </style>
 
-      <Col className="page-container">
+      <Col className="services-container">
         <Row className="page-title"> Our Services </Row>
         <Row>
           <Col className="page-content">
-            <ul>
-              <li>
-                <b>Income Tax</b>
-              </li>
-              *** Detailed Explanation Here ***
-              <li>
-                <b>Bookkeeping</b>
-              </li>
-              *** Detailed Explanation Here ***
-            </ul>
+            <ol type="1">
+              <b>
+                <li>Income Tax Preparation and Planning</li>
+              </b>
+              <ol type="a">
+                <li>
+                  We provide tax preparation services for <b>businesses</b> and{" "}
+                  <b>individuals</b>. A few common forms we prepare include:
+                </li>
+                <li>State returns, If needed.</li>
+                <li>
+                  Foreign reporting of income, assets, and other disclosures.
+                </li>
+                <li>IRS Audits</li>
+                <li>IRS or State Notices</li>
+              </ol>
+              <b>
+                <li>Bookkeeping Services</li>
+              </b>
+              <b></b><li>Business Planning</li>
+            </ol>
           </Col>
         </Row>
       </Col>
