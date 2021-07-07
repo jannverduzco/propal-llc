@@ -5,12 +5,14 @@
 }
 
 .page-title {
-  padding-top: 4%;
+  text-align: center;
+  padding-top: 2%;
   font-weight: bold;
   font-size: 30px;
+
 }
 
 .page-content {
-  padding: 3.5%;
+  padding: 1%;
   font-size: 20px;
 }
