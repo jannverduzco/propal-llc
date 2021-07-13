@@ -5,6 +5,8 @@ import Card from "react-bootstrap/Card";
 import CardDeck from "react-bootstrap/CardDeck";
 import "./style.css";
 import TaxPrep from "../../../Assets/taxPrep.png";
+import Bookkeeping from "../../../Assets/bookkeeping.png";
+import BusinessPlanning from "../../../Assets/business-planning.png";
 
 function Services() {
   return (
@@ -52,23 +54,46 @@ function Services() {
             </Card.Body>
           </Card>
           <Card>
-            <Card.Img variant="top" src="holder.js/100px160" />
+            <Card.Img className="bookkeeping" variant="top" src={Bookkeeping} />
             <Card.Body>
-              <Card.Title>Card title</Card.Title>
+              <Card.Title>
+                <b>Bookkeeping Services</b>
+              </Card.Title>
               <Card.Text>
-                This card has supporting text below as a natural lead-in to
-                additional content.{" "}
+                We provide the following bookkeeping services:
+                <ul>
+                  <li>Preparation of Business Reports</li>
+                  <li>Quickbooks Training</li>
+                  <li>Payroll Tax preparation</li>
+                  <li>Sales Tax preparations</li>
+                </ul>
               </Card.Text>
             </Card.Body>
           </Card>
           <Card>
-            <Card.Img variant="top" src="holder.js/100px160" />
+            <Card.Img
+              className="business-planning"
+              variant="top"
+              src={BusinessPlanning}
+            />
             <Card.Body>
-              <Card.Title>Card title</Card.Title>
+              <Card.Title>
+                <b>Business Planning</b>
+              </Card.Title>
               <Card.Text>
-                This is a wider card with supporting text below as a natural
-                lead-in to additional content. This card has even longer content
-                than the first to show that equal height action.
+                We want all of our clients to be fully aware of the many options
+                one can take when it comes to financial planning. We can help
+                with questions such as:
+                <ul>
+                <li> Should I start an LLC? </li>
+                <li>What type of entity is best for me?</li>
+                <li> What tax breaks can I take advantage of?</li>
+                <li>
+                  {" "}
+                  How do I keep track of my records? How do I save money on
+                  taxes?
+                </li>
+                </ul>
               </Card.Text>
             </Card.Body>
           </Card>
