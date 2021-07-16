@@ -36,7 +36,7 @@ function Services() {
                     <li>1040NR - Non-Resident Individual Income Tax Return</li>
                     <li>1120 - Corporate Income Tax Return</li>
                     <li>1120S - Subchapter S Corporate Income Tax Return</li>
-                    <li>1065 - Partnership Income Tax ReturnFAQ’s</li>
+                    <li>1065 - Partnership Income Tax Return</li>
                     <li>
                       7002 - Application for Individual Taxpayer Identification
                       Number (ITIN)
