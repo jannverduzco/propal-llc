@@ -26,11 +26,13 @@ function Contact() {
         />
 
         <label>Phone Number</label>
-        <PhoneInput
-          placeholder="Phone Number"
-          value={value}
-          onChange={setValue}
-        />
+        
+          <PhoneInput
+            placeholder="Phone Number"
+            value={value}
+            onChange={setValue}
+          />
+     
 
         <label>Message</label>
         <textarea
