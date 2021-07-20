@@ -1,7 +1,11 @@
 import React, { useState } from "react";
 import "./style.css";
 
+import "react-phone-number-input/style.css";
+import PhoneInput from "react-phone-number-input";
+
 function Contact() {
+  const [value, setValue] = useState();
   return (
     <div className="container">
       <form className="form">
@@ -19,6 +23,13 @@ function Contact() {
           placeholder="Email"
           // value={email}
           // onChange={(e) => setEmail(e.target.value)}
+        />
+
+        <label>Phone Number</label>
+        <PhoneInput
+          placeholder="Phone Number"
+          value={value}
+          onChange={setValue}
         />
 
         <label>Message</label>
