@@ -21,7 +21,7 @@ function Navbar() {
         <div className="navbar">
           <div className="navbar-container container">
             <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
-              <h3>PROPAL LLC</h3>
+              <h4>PROPAL LLC</h4>
 
               {/* <img className="logo" src={Logo} alt="logo"></img> */}
             </Link>
