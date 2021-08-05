@@ -14,7 +14,7 @@
 }
 
 .container {
-  z-index:15 ;
+  z-index: 15;
   width: 100%;
   max-width: 1300px;
   margin-right: auto;
@@ -31,13 +31,11 @@
   align-items: center;
   padding-bottom: 10px;
 }
-/* .logo {
-  width: 150px;
+.logo {
+  width: 33px;
   height: auto;
-  border-radius: 5px 20px 5px;
-  background-color: red;
-} */
-
+  padding: 3px;
+}
 
 .navbar-icon {
   margin-right: 0.5rem;
@@ -115,7 +113,6 @@
   .nav-item:hover {
     border-bottom: solid hsl(0, 0%, 97%);
   }
-  
 
   .nav-item {
     width: 100%;
