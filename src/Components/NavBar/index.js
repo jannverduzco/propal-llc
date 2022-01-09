@@ -23,7 +23,6 @@ function Navbar() {
             <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
               <img className="logo" src={Logo} alt="logo"></img>
               <h4>PROPAL LLC</h4>
-
             </Link>
             <div className="menu-icon" onClick={handleClick}>
               {click ? <FaRegWindowClose /> : <FaBars />}

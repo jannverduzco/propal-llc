@@ -1,0 +1,13 @@
+.main-footer {
+  color: hsla(0, 0%, 100%, 0.986);
+  background: hsl(207, 92%, 20%);
+  padding-top: 3em;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+.logo {
+  height: 75px;
+  width: auto;
+}
