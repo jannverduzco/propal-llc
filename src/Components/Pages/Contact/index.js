@@ -8,45 +8,43 @@ function Contact() {
   const [value, setValue] = useState();
   return (
     <div className="container">
-      <form className="form">
+      <form
+        className="form"
+        action="https://formsubmit.co/jalvarado@propalllc.com"
+        method="POST"
+      >
         <h1>Contact Us</h1>
 
         <label>Name</label>
-        <input
-          placeholder="Name"
-          // value={name}
-          // onChange={(e) => setName(e.target.value)}
-        />
+        <input type="text" placeholder="Name" required />
 
         <label>Email</label>
-        <input
-          placeholder="Email"
-          // value={email}
-          // onChange={(e) => setEmail(e.target.value)}
-        />
+        <input type="email" name="email" placeholder="Email Address" required />
 
         <label>Phone Number</label>
-        
-          <PhoneInput
-            placeholder="Phone Number"
-            value={value}
-            onChange={setValue}
-          />
-     
+
+        <PhoneInput
+          placeholder="Phone Number"
+          value={value}
+          onChange={setValue}
+        />
 
         <label>Message</label>
-        <textarea
-          placeholder="Message"
-          // value={message}
-          // onChange={(e) => setMessage(e.target.value)}
-        ></textarea>
+        <textarea placeholder="Message"></textarea>
 
-        <button
-          type="submit"
-          // style={{ background: loader ? "#ccc" : " rgb(2, 2, 110)" }}
-        >
-          Submit
-        </button>
+        <input
+          type="hidden"
+          name="_subject"
+          value="New Client Lead via Propal LLC Website!"
+        ></input>
+        {/* Auto respnse to inquiry */}
+        <input
+          type="hidden"
+          name="_autoresponse"
+          value="Thank you for reaching out to Propal, LLC. We will contact you within 1-2 business days or any provided specified time."
+        ></input>
+
+        <button type="submit">Submit</button>
       </form>
     </div>
   );

@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { FaBars, FaRegWindowClose } from "react-icons/fa";
 import "./style.css";
 import { IconContext } from "react-icons/lib";
-import Logo from "../../Assets/propalLogo.ico";
+import Logo from "../../Assets/propalNavbarLogo.ico";
 // import * as ReactBootStrap from "react-bootstrap";
 
 function Navbar() {

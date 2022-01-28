@@ -1,6 +1,6 @@
 import React from "react";
 import "./style.css";
-import Logo from "../../Assets/propalLogo.ico";
+import FooterLogo from "../../Assets/propalFooterLogo.ico";
 
 const Footer = () => {
   return (
@@ -9,7 +9,7 @@ const Footer = () => {
         <div className="row">
           {/* Column1 */}
           <div className="col">
-            <img className="logo" src={Logo} alt="logo"></img>
+            <img className="footerLogo" src={FooterLogo} alt="logo"></img>
             <h2>Propal LLC</h2>
           </div>
           {/* Column2 */}
@@ -24,8 +24,8 @@ const Footer = () => {
           <div className="col">
             <h3>Contact Us</h3>
             <ul className="list-unstyled">
-              <li>210-328-6478</li>
-              <li>210-920-2350</li>
+              <li>Phone: 210-328-6478</li>
+              <li>Fax: 210-920-2350</li>
               <li>malvarado@propalllc.com</li>
             </ul>
           </div>
